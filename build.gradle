@@ -24,7 +24,9 @@ targetCompatibility = 1.8
 repositories {
 	mavenCentral()
 }
-
+springBoot {
+  mainClass = "com.javainuse.BootGradleApplication"
+}
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web','org.apache.tomcat.embed:tomcat-embed-jasper'
