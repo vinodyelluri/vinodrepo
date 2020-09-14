@@ -24,6 +24,8 @@ targetCompatibility = 1.8
 repositories {
 	mavenCentral()
 }
+
+//hello
 springBoot {
   mainClass = "com.javainuse.BootGradleApplication"
 }
